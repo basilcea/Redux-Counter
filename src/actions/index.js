@@ -1,6 +1,7 @@
 
 
 export const INCREMENT = 'INCREMENT';
+export const INCREMENT_IF_ODD = 'INCREMENT_IF_ODD';
 export const DECREMENT = 'DECREMENT';
 
 // Our action creators will return
@@ -13,6 +14,10 @@ export const DECREMENT = 'DECREMENT';
 
 export const increment = () => {
   return {type: INCREMENT}
+};
+
+export const incrementIfOdd = () => {
+  return {type: INCREMENT_IF_ODD }
 };
 
 export const decrement = () => {
